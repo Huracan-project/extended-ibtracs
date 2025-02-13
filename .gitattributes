@@ -2,3 +2,5 @@ files/extended_ibtracs.nc filter=lfs diff=lfs merge=lfs -text
 files/extended_ibtracs_ibattrs.nc filter=lfs diff=lfs merge=lfs -text
 files/extended_ibtracs_distaz.nc filter=lfs diff=lfs merge=lfs -text
 files/extended_ibtracs_CPS.nc filter=lfs diff=lfs merge=lfs -text
+files/extended_ibtracs_TS_1980-2022_reaching_BIWE.nc filter=lfs diff=lfs merge=lfs -text
+files/extended_ibtracs_TS_1980-2022_reaching_France.nc filter=lfs diff=lfs merge=lfs -text
