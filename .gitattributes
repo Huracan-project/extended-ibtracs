@@ -1,3 +1,4 @@
 files/extended_ibtracs.nc filter=lfs diff=lfs merge=lfs -text
 files/extended_ibtracs_ibattrs.nc filter=lfs diff=lfs merge=lfs -text
 files/extended_ibtracs_distaz.nc filter=lfs diff=lfs merge=lfs -text
+files/extended_ibtracs_CPS.nc filter=lfs diff=lfs merge=lfs -text

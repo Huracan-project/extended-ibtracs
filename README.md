@@ -17,8 +17,8 @@ For information about how the database is constructed, please see the `create_ex
 
 Several additional extensions are provided, which include more data. Feel free to use the scripts to create a version that suits best your needs depending on what you need to add. These extensions include: 
 * Addition of attributes from IBTrACS;
-* Addition of CPS parameters from ERA5 and JRA3Q;
 * Addition of translation speed and direction;
+* Addition of CPS parameters from ERA5 and JRA3Q;
 
 Miscellanous notes:
 * Winds are provided in m/s.
