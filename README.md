@@ -25,9 +25,7 @@ Miscellanous notes:
 * Pressures are provided in hPa.
 
 TODO: 
-* Scripts creating/adding data
 * Scripts for exploring the database
-* FAQ: Filtering the data, subsetting a region, etc.
 
 **Acknowledgments**:
 This project obviously builds on the essential work carried on at NOAA curating the IBTrACS database. 
