@@ -1,4 +1,4 @@
-# extended-ibtracs
+# Extended IBTrACS
 A database extending the IBTrACS database of best-track tropical cyclones with (re)analyses information.
 
 The database is currently based on IBTrACS data in the North Atlantic. It is easy to extend to other basins, and can be done on request, or by yourself tweaking the provided scripts. No filtering is done a priori on the IBTrACS tracks. In other words, any track, however weak, short or old is included as long as it was in IBTrACS in the first place. You may perform your own filtering as a post-treatment if necessary (e.g. select only cyclones that reached a given category, etc.).
@@ -20,7 +20,6 @@ Several additional extensions are provided, which include more data. Feel free t
 * Addition of CPS parameters from ERA5 and JRA3Q;
 * Addition of translation speed and direction;
 
-
 Miscellanous notes:
 * Winds are provided in m/s.
 * Pressures are provided in hPa.
@@ -28,4 +27,8 @@ Miscellanous notes:
 TODO: 
 * Scripts creating/adding data
 * Scripts for exploring the database
-* FAQ: Filtering the data, subsetting a region, etc. 
+* FAQ: Filtering the data, subsetting a region, etc.
+
+**Acknowledgments**:
+This project obviously builds on the essential work carried on at NOAA curating the IBTrACS database. 
+IBTrACS is available at https://www.ncei.noaa.gov/products/international-best-track-archive, see also important references therein. 
