@@ -13,7 +13,13 @@ Note that the temporal coverage is different for each of the datasets. The ECMWF
 
 It is easy to add any other track dataset as long as the tracks are already tracked. Ideally, this tracking should include any cyclone track regardless of nature (i.e. no TC identfication criterion has been applied) as the IBTrACS matching will take care of identification. To provide added value, it is desirable that the tracking provides tracks that last for longer than they do in IBTrACS. If the point is to add more/better information to track over their recorded lifecycle, it is likely preferable to retrieve this information using IBTrACS tracks in the first place.
 
-For information about how the database is constructed, please see the corresponding notebook.
+For information about how the database is constructed, please see the `create_extended_ibtracs` notebook.
+
+Several additional extensions are provided, which include more data. Feel free to use the scripts to create a version that suits best your needs depending on what you need to add. These extensions include: 
+* Addition of attributes from IBTrACS;
+* Addition of CPS parameters from ERA5 and JRA3Q;
+* Addition of translation speed and direction;
+
 
 Miscellanous notes:
 * Winds are provided in m/s.
