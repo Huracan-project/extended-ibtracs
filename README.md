@@ -15,18 +15,19 @@ It is easy to add any other track dataset as long as the tracks are already trac
 
 For information about how the database is constructed, please see the `create_extended_ibtracs` notebook.
 
-Several additional extensions are provided, which include more data. Feel free to use the scripts to create a version that suits best your needs depending on what you need to add. These extensions include: 
+Several additional notebooks are provided, to include more data. Feel free to use the scripts to create a version that suits best your needs depending on what you need to add. These extensions include: 
 * Addition of attributes from IBTrACS;
 * Addition of translation speed and direction;
 * Addition of CPS parameters from ERA5 and JRA3Q;
+
+A `vizualize.ipynb` notebook is also provided to show how to explore the database. 
 
 Miscellanous notes:
 * Winds are provided in m/s.
 * Pressures are provided in hPa.
 
-TODO: 
-* Scripts for exploring the database
-
 **Acknowledgments**:
 This project obviously builds on the essential work carried on at NOAA curating the IBTrACS database. 
 IBTrACS is available at https://www.ncei.noaa.gov/products/international-best-track-archive, see also important references therein. 
+
+This work was conducted with the NERC-NSF Huracan project.
