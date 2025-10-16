@@ -1,3 +1,11 @@
 input/*.pkl filter=lfs diff=lfs merge=lfs -text
 extended-ibtracs/*.nc filter=lfs diff=lfs merge=lfs -text
 ibtracs/*.csv filter=lfs diff=lfs merge=lfs -text
+extended-ibtracs/extended-ibtracs_NA.nc filter=lfs diff=lfs merge=lfs -text
+extended-ibtracs/extended-ibtracs_NI.nc filter=lfs diff=lfs merge=lfs -text
+extended-ibtracs/extended-ibtracs_SA.nc filter=lfs diff=lfs merge=lfs -text
+extended-ibtracs/extended-ibtracs_SI.nc filter=lfs diff=lfs merge=lfs -text
+extended-ibtracs/extended-ibtracs_SP.nc filter=lfs diff=lfs merge=lfs -text
+extended-ibtracs/extended-ibtracs_WP.nc filter=lfs diff=lfs merge=lfs -text
+extended-ibtracs/EU_tracks_with_E-OBS.nc filter=lfs diff=lfs merge=lfs -text
+extended-ibtracs/extended-ibtracs_EP.nc filter=lfs diff=lfs merge=lfs -text

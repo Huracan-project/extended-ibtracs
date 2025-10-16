@@ -14,7 +14,7 @@ Then, once you cloned the repository, run `git lfs pull` to download all the fil
 ## Repository description
 * `ibtracs/` contains csv files of IBTrACS data for each basin;
 * `input/` contains pickle files of track data for each source;
-* `extended-ibtracs` contains NetCDF files of the extended-ibtracs data for each basin;
+* `extended-ibtracs/` contains NetCDF files of the extended-ibtracs data for each basin;
 * `eib.py` is a small python module to quickly import the packages used in constructing and analyse the data;
 * `*.ipynb` are the Jupyter Notebooks used in constructing the database. 
 
