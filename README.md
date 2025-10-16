@@ -1,13 +1,24 @@
 # Extended IBTrACS
 
-## How to use this repository
+Author: Stella Bourdin (Uni. Oxford), with help from Leo Saffin and Kevin Hodges (Uni. Reading), and advice from many members of the [Huracán project](https://research.reading.ac.uk/huracan/about-huracan/project-overview/).
 
-### About Git LFS
+This code and data are distributed under the GPL-3.0 license. This does not cover the IBTrACs data, whose license is not indicated on the website. 
+
+A paper is being written to be submitted to ESSD describing the construction process of the present database.
+
+## About Git LFS
 Due to the size of the files in this repository, we use git Large File Storage (LFS) to store the input and output files. 
 To retrieve these files from this repository, you will need to install [git LFS](https://git-lfs.com/).
 Then, once you cloned the repository, run `git lfs pull` to download all the files. 
 
-## Data description
+## Repository description
+* `ibtracs/` contains csv files of IBTrACS data for each basin;
+* `input/` contains pickle files of track data for each source;
+* `extended-ibtracs` contains NetCDF files of the extended-ibtracs data for each basin;
+* `eib.py` is a small python module to quickly import the packages used in constructing and analyse the data;
+* `*.ipynb` are the Jupyter Notebooks used in constructing the database. 
+
+## Data description
 
 Coordinates:
 * `source` is the origin of the track data, either IBTrACS, or a (re)-analysis.
