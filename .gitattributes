@@ -9,3 +9,10 @@ extended-ibtracs/extended-ibtracs_SP.nc filter=lfs diff=lfs merge=lfs -text
 extended-ibtracs/extended-ibtracs_WP.nc filter=lfs diff=lfs merge=lfs -text
 extended-ibtracs/EU_tracks_with_E-OBS.nc filter=lfs diff=lfs merge=lfs -text
 extended-ibtracs/extended-ibtracs_EP.nc filter=lfs diff=lfs merge=lfs -text
+ibtracs/ibtracs_SA.csv filter=lfs diff=lfs merge=lfs -text
+ibtracs/ibtracs_SI.csv filter=lfs diff=lfs merge=lfs -text
+ibtracs/ibtracs_SP.csv filter=lfs diff=lfs merge=lfs -text
+ibtracs/ibtracs_WP.csv filter=lfs diff=lfs merge=lfs -text
+ibtracs/ibtracs_EP.csv filter=lfs diff=lfs merge=lfs -text
+ibtracs/ibtracs_NA.csv filter=lfs diff=lfs merge=lfs -text
+ibtracs/ibtracs_NI.csv filter=lfs diff=lfs merge=lfs -text
